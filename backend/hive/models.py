@@ -24,10 +24,10 @@ class Product(models.Model):
 
   image = CloudinaryField(
     'Image', blank=False, null=False)
-  description = models.CharField(
-    'Description', max_length=2000, default='Product Description')
   title = models.CharField(
     'Title', max_length=200, blank=False, null=False, db_index=True)
+  description = models.CharField(
+    'Description', max_length=2000, default='Product Description')
   category = models.CharField(
     'Category', choices=CATEGORY, db_index=True,max_length=30)
   filter = models.CharField(
