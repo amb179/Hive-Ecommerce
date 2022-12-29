@@ -7,27 +7,15 @@ function Footer() {
     <div class="footer">
       <div class="container">
         <div class="column-shop">
-          <H2>Shop and Learn</H2>
-          <ul>
-            <li>
-              <a href="#signup">Sign Up</a>
-            </li>
-            <li>
-              <a href="#signin">Sign In</a>
-            </li>
-            <li>
-              <a href="#itemlist">Item lists</a>
-            </li>
-          </ul>
+          <p id='foot'>Shop and Learn</p>
+          <a href="#signup">Sign Up</a>     
+          <a href="#signin">Sign In</a>     
+          <a href="#itemlist">Item lists</a>
         </div>
         
         <div class="column-support">
-          <H2>Support</H2>
-          <ul>
-            <li>
-              <a href="#contact">Contact Us</a>
-            </li>
-          </ul>
+          <p id='foot'>Support</p>
+          <a href="#contact">Contact Us</a>
         </div>
       </div>
 

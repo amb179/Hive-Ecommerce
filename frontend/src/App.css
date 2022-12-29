@@ -28,9 +28,9 @@ ul{
 
 #brand{
   float: left;
-  width: 67%;
-  margin-left: 7%;
-  padding-top: 6%;
+  width: 55%;
+  margin-left: 20%;
+  padding-top: 3%;
 }
 
 .bar{  /* container for search and links*/
@@ -50,7 +50,9 @@ ul{
 
 .nav a img{
   float: right;
-  width: auto;
+  width: 64%;
+  right: 19px;
+  position: relative;
 }
 
 .nav a:hover {
@@ -193,7 +195,7 @@ button img{
 }
 
 .card img{
-  height: 350px;
+  height: 324px;
 }
 
  .card-bottom{
@@ -261,10 +263,28 @@ button img{
 
 /* checkout */
 
+.cart-quantity{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #7a7b79;
+  text-align: center;
+  color: white;
+  font-size: .8em;
+  position: relative;
+  left: -34px;
+}
+
 #cart{    /* hr */
   margin-top: -2%;
   width: 85%;
   margin-left: 4%;
+}
+
+.line{
+  border-bottom: 1px solid black;
+  margin-left: 56px;
+  margin-right: 169px;
 }
 
 .checkout{
@@ -299,7 +319,8 @@ button img{
 /* thank you page */
 
 .thank-you{
-  padding: 15%;
+  padding: 13% 20%;
+  text-align: center;
 }
 
 .thank-you h1{
@@ -330,15 +351,22 @@ button img{
   padding: 0 67% 0% 6%;
 }
 
-.container ul{
-  line-height: 1.5;
-  margin-top: -12px;
+.container a{
+  line-height: 2;
+  display: block;
+  font-size: .8em;
+  margin-left: 16px;
 }
 
-.container h2{
-  font-size: 2em;
+#foot{
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 16px;
 }
 
+.footer p{
+  font-size: .8em;
+}
 
 /* responsive */
 
